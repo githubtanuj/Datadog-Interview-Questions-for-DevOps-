@@ -1,7 +1,4 @@
-Got it 👍
-Below is a **VERY SIMPLE, SHORT, EASY-TO-REMEMBER cheat sheet** for **Datadog basics**, **without losing core concepts**, **mapped to your Inbestment.com project**, plus **memory tricks** so you don’t forget in interview.
 
----
 
 ## 🔹 What is Datadog? (1-line answer)
 
