@@ -157,7 +157,7 @@ APM shows how much time each request spends inside an application, service, and 
 
 🧠 Memory trick:
 “APM = Where time is spent”
-
+---
 🔹 Why APM is used?
 
 Find slow APIs
@@ -170,7 +170,7 @@ Fix performance issues faster
 
 🧠 Trick:
 “APM = Find slow part”
-
+---
 🔹 How APM works (VERY IMPORTANT)
 User → ALB → Service → Service → Database
 
@@ -179,7 +179,7 @@ APM tracks time at each step (trace).
 
 🧠 Trick:
 “APM follows the request”
-
+---
 🔹 What is a Trace?
 
 One end-to-end request
@@ -188,7 +188,7 @@ Contains multiple spans
 
 🧠 Trick:
 “Trace = One request”
-
+---
 🔹 What is a Span?
 
 One operation inside a trace
@@ -196,7 +196,7 @@ One operation inside a trace
 
 🧠 Trick:
 “Span = One step”
-
+---
 🔹 How to enable APM (Easy)
 
 Install Datadog Agent
@@ -209,14 +209,14 @@ Deploy application
 
 🧠 Trick:
 “Agent + Library = APM”
-
+---
 🔹 APM in estment.com (Interview GOLD)
 
 “In estment.com, we use APM to trace backend APIs running on EKS. It helps us identify slow services and MongoDB query latency.”
 
 🧠 Trick:
 “APM = API + DB latency”
-
+---
 🔹 APM vs Synthetic vs RUM (SUPER IMPORTANT)
 Type	Who hits	Purpose
 Synthetic	Robot	Check uptime
@@ -225,7 +225,7 @@ RUM	Real user	User experience
 
 🧠 Trick:
 “Robot → App → Human”
-
+---
 🔹 What problems APM solves?
 
 High response time
@@ -238,7 +238,7 @@ Error spikes
 
 🧠 Trick:
 “APM solves slowness”
-
+---
 🔹 ONE-LINE MASTER FORMULA (REMEMBER THIS 🔥)
 APM = Trace → Spans → Bottleneck
 
