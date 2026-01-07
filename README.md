@@ -150,6 +150,100 @@ APM shows **time spent at each step**
 
 🧠 **Trick:**
 **“APM = Where time is going?”**
+🔹 APM (Application Performance Monitoring)
+🔹 APM – 1-line answer
+
+APM shows how much time each request spends inside an application, service, and database.
+
+🧠 Memory trick:
+“APM = Where time is spent”
+
+🔹 Why APM is used?
+
+Find slow APIs
+
+Find slow services
+
+Find slow DB queries
+
+Fix performance issues faster
+
+🧠 Trick:
+“APM = Find slow part”
+
+🔹 How APM works (VERY IMPORTANT)
+User → ALB → Service → Service → Database
+
+
+APM tracks time at each step (trace).
+
+🧠 Trick:
+“APM follows the request”
+
+🔹 What is a Trace?
+
+One end-to-end request
+
+Contains multiple spans
+
+🧠 Trick:
+“Trace = One request”
+
+🔹 What is a Span?
+
+One operation inside a trace
+(API call, DB call, function)
+
+🧠 Trick:
+“Span = One step”
+
+🔹 How to enable APM (Easy)
+
+Install Datadog Agent
+
+Add Datadog APM library to app
+
+Enable APM in agent config
+
+Deploy application
+
+🧠 Trick:
+“Agent + Library = APM”
+
+🔹 APM in estment.com (Interview GOLD)
+
+“In estment.com, we use APM to trace backend APIs running on EKS. It helps us identify slow services and MongoDB query latency.”
+
+🧠 Trick:
+“APM = API + DB latency”
+
+🔹 APM vs Synthetic vs RUM (SUPER IMPORTANT)
+Type	Who hits	Purpose
+Synthetic	Robot	Check uptime
+APM	Real request	Find bottleneck
+RUM	Real user	User experience
+
+🧠 Trick:
+“Robot → App → Human”
+
+🔹 What problems APM solves?
+
+High response time
+
+Microservice latency
+
+Database slowness
+
+Error spikes
+
+🧠 Trick:
+“APM solves slowness”
+
+🔹 ONE-LINE MASTER FORMULA (REMEMBER THIS 🔥)
+APM = Trace → Spans → Bottleneck
+
+
+If you remember this, you can answer ANY APM question confidently.
 
 ---
 
@@ -165,6 +259,90 @@ APM shows **time spent at each step**
 
 🧠 **Trick:**
 **“Synthetic = Robot testing”**
+🔹 Synthetic Monitoring (1-line answer)
+
+Synthetic Monitoring proactively checks website/API availability using robots from global locations.
+
+🧠 Memory trick:
+“Synthetic = Robot checking, not humans”
+
+🔹 Why Synthetic Monitoring?
+
+Runs 24×7
+
+Detects issues before users
+
+Checks uptime, latency, SSL, correctness
+
+🧠 Trick:
+“Before user complains”
+
+🔹 Types of Synthetic Tests (VERY IMPORTANT)
+1️⃣ API Test
+
+Tests single endpoint
+
+Checks:
+
+Status code (200)
+
+Response time
+
+Response body
+
+🧠 Trick:
+“API = One URL, one check”
+
+2️⃣ Browser Test
+
+Simulates real user journey
+
+Multiple steps:
+
+Open page
+
+Click
+
+Fill form
+
+Submit
+
+🧠 Trick:
+“Browser = Click, Type, Submit”
+
+🔹 How to set up Synthetic Test (Easy steps)
+
+Go to Digital Experience → New Test
+
+Choose API or Browser
+
+Enter URL
+
+Add assertions
+
+Status = 200
+
+Response < 1 sec
+
+Select locations
+
+Add alert recipients
+
+🧠 Trick:
+“Type → URL → Rule → Location → Alert”
+
+🔹 Example (Interview GOLD)
+
+“We use Synthetic Monitoring estment.com to check backend APIs behind ALB. API tests verify status codes and response time from multiple regions before users face issues.”
+
+🧠 Trick:
+“Synthetic = API health before user”
+
+🔹 ONE-LINE MASTER FORMULA (REMEMBER THIS)
+Synthetic = Robot + URL + Global + Alert
+
+
+If you say this confidently, interviewer will be satisfied ✅
 
 ---
 
