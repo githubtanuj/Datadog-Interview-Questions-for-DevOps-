@@ -259,13 +259,14 @@ If you remember this, you can answer ANY APM question confidently.
 
 🧠 **Trick:**
 **“Synthetic = Robot testing”**
+---
 🔹 Synthetic Monitoring (1-line answer)
 
 Synthetic Monitoring proactively checks website/API availability using robots from global locations.
 
 🧠 Memory trick:
 “Synthetic = Robot checking, not humans”
-
+---
 🔹 Why Synthetic Monitoring?
 
 Runs 24×7
@@ -276,7 +277,7 @@ Checks uptime, latency, SSL, correctness
 
 🧠 Trick:
 “Before user complains”
-
+---
 🔹 Types of Synthetic Tests (VERY IMPORTANT)
 1️⃣ API Test
 
@@ -292,7 +293,7 @@ Response body
 
 🧠 Trick:
 “API = One URL, one check”
-
+---
 2️⃣ Browser Test
 
 Simulates real user journey
@@ -309,7 +310,7 @@ Submit
 
 🧠 Trick:
 “Browser = Click, Type, Submit”
-
+---
 🔹 How to set up Synthetic Test (Easy steps)
 
 Go to Digital Experience → New Test
@@ -330,14 +331,14 @@ Add alert recipients
 
 🧠 Trick:
 “Type → URL → Rule → Location → Alert”
-
+---
 🔹 Example (Interview GOLD)
 
 “We use Synthetic Monitoring estment.com to check backend APIs behind ALB. API tests verify status codes and response time from multiple regions before users face issues.”
 
 🧠 Trick:
 “Synthetic = API health before user”
-
+---
 🔹 ONE-LINE MASTER FORMULA (REMEMBER THIS)
 Synthetic = Robot + URL + Global + Alert
 
