@@ -103,7 +103,7 @@ With integration → **app-specific metrics**
 
 ---
 
-## 🔹 Datadog in *Inbestment.com* (Interview GOLD)
+## 🔹 Datadog in my project (Interview GOLD)
 
 * **Frontend**: S3 + CloudFront
 * **Backend**: EKS
